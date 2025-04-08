@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frosh TV | Home of Entertainment & Airdrops</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sign-up Page -->
+        <div id="signup-page" class="active">
+            <div class="logo-container">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQxIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojOUQ0RUREIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNEEwMDgwIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQyIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojRkZENzAwIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojRDRBRjM3Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3Qgd2lkdGg9IjE2MCIgaGVpZ2h0PSIxNjAiIHg9IjIwIiB5PSIyMCIgcng9IjE1IiByeT0iMTUiIGZpbGw9IiMxQTFBMkUiIHN0cm9rZT0idXJsKCNncmFkMikiIHN0cm9rZS13aWR0aD0iNCIvPjxwYXRoIGQ9Ik01NSA1NUg3NVY3NUg1NVoiIGZpbGw9InVybCgjZ3JhZDIpIi8+PHBhdGggZD0iTTgwIDU1SDEwMFY3NUg4MFoiIGZpbGw9InVybCgjZ3JhZDIpIi8+PHBhdGggZD0iTTU1IDgwSDk1VjEyMEg1NVoiIGZpbGw9InVybCgjZ3JhZDEpIiByeD0iMTAiIHJ5PSIxMCIvPjxsaW5lIHgxPSI0MCIgeTE9IjEzMCIgeDI9IjE2MCIgeTI9IjEzMCIgc3Ryb2tlPSJ1cmwoI2dyYWQyKSIgc3Ryb2tlLXdpZHRoPSI0Ii8+PHRleHQgeD0iNTUiIHk9IjE1MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXdlaWdodD0iYm9sZCIgZm9udC1zaXplPSIyNCIgZmlsbD0idXJsKCNncmFkMikiPkZST1NIIFRWPC90ZXh0Pjwvc3ZnPg==" alt="Frosh TV Logo" class="logo">
+            </div>
+            <h1 class="title">Join Frosh TV</h1>
+            <p class="subtitle">Home of Entertainment & Airdrops</p>
+            
+            <div class="credit-text">frosh made by bella</div>
+            
+            <form id="signup-form">
+                <div class="form-group">
+                    <label for="username">Username on Telegram</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="feedback">What do you like about Frosh? (Optional)</label>
+                    <textarea id="feedback" name="feedback"></textarea>
+                </div>
+                <button type="submit" class="btn-signup">Sign Up</button>
+            </form>
+        </div>
+
+        <!-- Home Page -->
+        <div id="home-page">
+            <div class="welcome-banner">
+                <h1>Welcome to Frosh site made by bella</h1>
+                <p>Experience entertainment like never before!</p>
+            </div>
+            
+            <div class="features-container">
+                <div class="feature-card" id="insult">
+                    <i class="fas fa-comment-slash"></i>
+                    <h3>Find Someone to Insult</h3>
+                </div>
+                
+                <div class="feature-card" id="lacasera">
+                    <i class="fas fa-glass-cheers"></i>
+                    <h3>Lacasera Challenge</h3>
+                </div>
+                
+                <div class="feature-card" id="caprison">
+                    <i class="fas fa-wine-bottle"></i>
+                    <h3>Caprison Challenge</h3>
+                </div>
+                
+                <div class="feature-card" id="sing">
+                    <i class="fas fa-music"></i>
+                    <h3>Sing Challenge</h3>
+                </div>
+                
+                <div class="feature-card" id="smile">
+                    <i class="fas fa-smile-beam"></i>
+                    <h3>Make Bella Smile</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lacasera Challenge Modal -->
+        <div id="lacasera-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Challenge me on Lacasera</h2>
+                <p>I am president frosh...</p>
+                <div class="lacasera-container">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImxjZ3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZGMzMwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZGNjYwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI2MCIgaGVpZ2h0PSIxNjAiIHg9IjIwIiB5PSIyMCIgcng9IjEwIiByeT0iMTAiIGZpbGw9InVybCgjbGNncmFkKSIgc3Ryb2tlPSIjRkYzMzAwIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSIzMCIgeT0iODAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNGRkZGRkYiIHRyYW5zZm9ybT0icm90YXRlKDkwLCAzMCwgODApIj5MQUNBRVJBPC90ZXh0PjxjaXJjbGUgY3g9IjUwIiBjeT0iNDAiIHI9IjEwIiBmaWxsPSIjRkZGRkZGIi8+PC9zdmc+" alt="Lacasera Bottle" class="lacasera-img">
+                </div>
+                <button class="challenge-btn">Challenge Me Now!</button>
+            </div>
+        </div>
+
+        <!-- Make Bella Smile Modal -->
+        <div id="smile-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Random Joke to Make Bella Smile</h2>
+                <p id="joke-text"></p>
+                <button class="more-btn">Another Joke</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
